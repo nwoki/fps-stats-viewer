@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 0.75s alternate;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+  font-family: "RobotoRegular", sans-serif;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: scale(1, 1); }
+  to { transform: scale(1.25, 1.25); }
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
